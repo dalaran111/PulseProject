@@ -29,4 +29,31 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_heart_animated {
+            animation-name: heartbeat;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        &_shoe_animated {
+            &:hover {
+                animation-name: footstep;
+                animation-duration: 1s;
+                animation-timing-function: ease;
+                animation-iteration-count: 1;
+            }
+        }
+        &_cup_animated {
+            &:hover {
+                animation-name: goldCup;
+                animation-duration: 1s;
+                animation-timing-function: ease;
+                animation-iteration-count: 1;
+            } 
+        }
+    }
 }

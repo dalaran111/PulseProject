@@ -1,0 +1,17 @@
+.pageup {
+    display: none;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    width: 40px;
+    height: 40px;
+
+    img {
+        width: 100%;
+        transition: 0.5s all;
+        &:hover {
+            filter: drop-shadow(0 0 20px #c70101);
+            border: none;
+        }
+    }
+}
