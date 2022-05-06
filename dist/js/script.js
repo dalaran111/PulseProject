@@ -50,6 +50,11 @@ $(document).ready(function(){
             $('.overlay, #order').fadeIn();
         });
     });
+    // $(document).on('click', function (e) {
+    //     if (((e.target).classList.contains('overlay'))) {
+    //         $('.overlay, #consultation, #thanks, #order').fadeOut();
+    //     }
+    // });
 
     //Forms validation
     function valideForms(form) {
